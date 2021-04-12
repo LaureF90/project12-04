@@ -1,0 +1,47 @@
+body {
+  margin: 0%;
+}
+
+h1 {
+  color:rgb(255, 255, 255);
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 36px;
+  text-align: center;
+  padding-left: 30px;
+}
+
+h2 {
+  color:rgb(103, 133, 214);
+  font-size: 22px;
+  font-family: Calibri;
+  padding-left: 30px;
+}
+
+h3 {
+  color:rgb(204, 56, 155);
+  font-size: 18px;
+  font-family: Calibri;
+  padding-left: 30px;
+}
+
+h4 {
+  color:rgb(255, 255, 255);
+  font-size: 18px;
+  font-family: Calibri;
+  font-size: 30px;
+}
+
+p {
+  color: rgb(8, 8, 8);
+  font-family: Calibri, sans-serif;
+  font-size: 22px;
+  text-align: justify;
+  padding-left: 40px;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}

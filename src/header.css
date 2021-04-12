@@ -1,0 +1,80 @@
+   /* Header */
+
+  .Nav {
+    overflow: hidden;
+    padding: 30px 20px 30px 20px; /*Etre éloigné du bord de la page */
+    display: flex;
+    background-color:black;
+    height: auto;
+  }
+  
+  .Logo {
+    height: 80px;
+    clip-path:ellipse(30% 50%);
+  }
+  
+  .List {
+    text-align: center;
+    justify-content: flex-start;
+    list-style-type: none; /*enlever les bullets points*/
+    display: flex;
+    margin: auto;
+  }
+  
+  .Nav li { /* Pour éloigner les mots les uns des autres, ce qui est de la mise en page des mots dans la box*/
+    text-align: center;
+    padding: 20px;
+    text-decoration: none; /*enlever le surlignage */
+    font-size: 20px;
+    color: #ffffff;
+    font-family: Calibri, sans-serif;
+    font-weight: bold;
+    display: flex;
+    margin: auto;
+  }
+  nav a:hover {
+    color: lightslategray;
+    transform: scale(1.2);
+    transition-duration: 0.2s;
+  }
+  
+  nav span:hover{
+    background-color: lightslategray;
+  }
+  
+  a {
+    color: white;
+    text-decoration: none; 
+  }
+
+@media (max-width: 600px) {
+  .List {
+    display: flex;
+    flex-wrap: wrap;
+    /* text-align: center; */
+    /* padding: 0px; */
+    list-style-type: none;
+    /* background-color: #ffffff; */
+    /* align-items: center; */
+    /* justify-content: center; */
+    justify-content: space-around;
+    margin: auto;
+    flex-basis: 40%;
+  }    
+  
+  .List li { 
+    text-align: center;
+    /* padding: 1px; */
+    text-decoration: none; 
+    font-size: 17px;
+    /* background-color: #ffffff; */
+    color: #ffffff;
+    font-family: Calibri, sans-serif;
+    font-weight: bold;
+    list-style-type: none;
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+    padding: 8px;
+  }
+}

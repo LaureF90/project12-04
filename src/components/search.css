@@ -1,0 +1,32 @@
+.Search-results {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 20px;
+}
+
+.Search-results ul {
+  column-count: 2;
+} 
+
+.Search-results img {
+  width: 300px;
+  padding: 0px 5px 10px 0px;
+}
+
+.Search-container {
+  position: relative;
+  padding: 20px;
+  text-align: center;
+}
+
+.Search-container input {
+font-size: 20px;
+}
+
+.Search-container button {
+  font-size: 18px;
+  }
+
+
+ 
